@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=4, initial-scale=1.0">
+    <link rel="stylesheet" href="./сss/zeroing.css">
+    <link rel="stylesheet" href="./сss/style.css">
+    <link rel="stylesheet" href="./сss/adaptiv.css">
+    <link rel="stylesheet" href="./fonts/stylesheet.css">
+    <title>Tocha</title>
+</head>
+<body>
+    <header class="header" id="header">
+        <div class="container">
+            <nav class="header__menu">
+            <div class="header__logo"><img src="./img/logo.webp" alt="logo"><a href="./404.html">
+                    <p>tocha</p>
+                </a></div>
+            <ul class="header__list">
+                <li><a href="#steps"><span>Подключение</span></a></li>
+                <li><a href="#tarif">Оплата</a></li>
+                <li><a href="#CTA">Контакты</a></li>
+                <li><a href="./404.html">Выход</a></li>
+            </ul>
+            <img src="./icons/Burger.svg" alt="burger" class="burger">
+            </nav>
+            <div class="header__content">
+                <h1><span>Telegram чат</span><br>на вашем сайте</h1>
+                <p>Общение с клиентами станет простым<br>и удобным, а подключение займет 5 минут. Первый месяц —
+                    <span>бесплатно!</span>
+                </p>
+                <button class="header__btn"><a href="#tarif">Подключить</a></button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="feature" id="feature">
+            <div class="container">
+            <div class="feature__content">
+                <div class="feature__text">
+                    <h2>Tocha Online — это</h2>
+                    <div class="feature__list">
+
+                        <div class="feature__list-elem">
+                            <img src="./icons/icon1.svg" alt="elem" class="feature__list-icon">
+                            <div class="feature__list-content">
+                                <h3>Ничего лишнего</h3>
+                                <p>Отсутствие лишних приложений для операторов.<br>Оператору не нужно учиться работать с
+                                    чатом</p>
+                            </div>
+                        </div>
+
+                        <div class="feature__list-elem">
+                            <img src="./icons/icon2.svg" alt="elem" class="feature__list-icon">
+                            <div class="feature__list-content">
+                                <h3>Простота</h3>
+                                <p>Простая установка на сайт</p>
+                            </div>
+                        </div>
+
+                        <div class="feature__list-elem">
+                            <img src="./icons/icon3.svg" alt="elem" class="feature__list-icon">
+                            <div class="feature__list-content">
+                                <h3>Несколько ассистентов</h3>
+                                <p>Возможность подключения нескольких ассистентов</p>
+                            </div>
+                        </div>
+
+                        <div class="feature__list-elem">
+                            <img src="./icons/icon4.svg" alt="elem" class="feature__list-icon">
+                            <div class="feature__list-content">
+                                <h3>Кастомизация</h3>
+                                <p>Настройка интерфейса под нужды сайта</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+
+        <section class="tarif" id="tarif">
+            <div class="container">
+            <div class="tarif__content">
+
+                <h2>Тарифы</h2>
+                <p>Стоимость зависит от трафика сайта</p>
+
+                <swiper-container class="mySwiper tarif__card" pagination="true" pagination-clickable="true" initial-slide="1"
+                    slides-per-view="auto" centered-slides="true" space-between="30">
+                    <swiper-slide class="card">
+                        <div class="rectangle">Бесплатно</div>
+                        <h3>Пробный период на 1 месяц</h3>
+                        <p>0₽/первый месяц</p>
+                        <button class="tarif__btn"><a href="#steps">Подключить за 0₽</a></button>
+                    </swiper-slide>
+                    <swiper-slide class="card">
+                        <div class="rectangle">Базовый</div>
+                        <h3>Менее 1000 посещений в сутки</h3>
+                        <p>200₽/месяц</p>
+                        <button class="tarif__btn"><a href="#steps">Подключить за 200₽</a></button>
+                    </swiper-slide>
+                    <swiper-slide class="card">
+                        <div class="rectangle">Премиум</div>
+                        <h3>Более 1000 посещений в сутки</h3>
+                        <p>500₽/месяц</p>
+                        <button class="tarif__btn"><a href="#steps">Подключить за 500₽</a></button>
+                    </swiper-slide>
+                </swiper-container>
+            </div>
+            </div>
+        </section>
+
+        <section class="steps" id="steps">
+            <div class="container">
+            <div class="steps__content">
+                <h2>Всего 3 шага для подключения Telegram чата</h2>
+                <img src="./img/lines.webp" alt="lines" class="lines">
+                <div class="steps__group">
+                    <div class="group__elem">
+                        <div class="circle">1</div>
+                        <h3>Telegram bot</h3>
+                        <p>Вы создаёте Telegram бота<br>для вашего сайта</p>
+                        <img src="./img/sm1.webp" alt="phone">
+                    </div>
+
+                    <div class="group__elem">
+                        <div class="circle">2</div>
+                        <h3>Подключение Tocha</h3>
+                        <p>Tocha подключает Telegram бота к вашиму сайту</p>
+                        <img src="./img/sm2.webp" alt="phone">
+                    </div>
+
+                    <div class="group__elem">
+                        <div class="circle">3</div>
+                        <h3>Telegram-чат</h3>
+                        <p>Консультант отвечает на вопросы посетителей сайта</p>
+                        <img src="./img/sm3.webp" alt="phone">
+                    </div>
+                </div>
+                <img src="./img/slider.webp" alt="slider" class="steps__slider">
+            </div>
+            </div>
+        </section>
+
+        <section class="opinion">
+            <div class="container">
+            <div class="opinion__content">
+                <img src="./img/quote.webp" alt="quote" class="quote">
+                <h2>Отзывы клиентов</h2>
+                <div class="opinion__card">
+                    <div class="card__elem">
+                        <article>
+                            <h3>Как же удобно!</h3>
+                            <p>В рамках спецификации современных стандартов, базовые сценарии поведения пользователей,
+                                которые представляют собой яркий пример континентально-европейского типа политической
+                                культуры, будут преданы социально-демократической анафеме.</p>
+                        </article>
+                        <div class="detalis">
+                            <img src="./img/Photo1.webp" alt="ava">
+                            <div class="inform">
+                                <h4>Анна Купер</h4>
+                                <p>romashka.ru</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card__elem">
+                        <article>
+                            <h3>Теперь мы идем в ногу со временем</h3>
+                            <p>А ещё интерактивные прототипы превращены в посмешище, хотя само их существование приносит
+                                несомненную пользу обществу. Банальные, но неопровержимые выводы, а также тщательные
+                                исследования конкурентов формируют сеть.</p>
+                        </article>
+                        <div class="detalis">
+                            <img src="./img/Photo2.webp" alt="ava">
+                            <div class="inform">
+                                <h4>Андрей Васильев</h4>
+                                <p>samogon-ont.ru</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <img src="./img/slider.webp" alt="slider" class="slider">
+            </div>
+            </div>
+        </section>
+
+        <section class="CTA" id="CTA">
+            <div class="container">
+            <div class="blok">
+                <img src="./img/Frame.webp" alt="illustration">
+                <div class="pois">
+                    <label for="email">Подключите Telegram чат уже сегодня</label>
+                    <div class="el">
+                        <input type="email" id="email" pattern=".+@example\.com" size="30" placeholder="Введите e-mail">
+                        <button class="pois__btn"><a href="#header">Отправить</a></button>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+        <div class="footer__content">
+            <div class="footer__logo"><img src="./img/logo.webp" alt="logo">
+                <p>tocha</p>
+            </div>
+            <div class="footer__menu">
+            <nav class="footer__nav">
+                <h3>Telegram чат</h3>
+                <ul>
+                    <li><a href="#feature">О нас</a></li>
+                    <li><a href="./404.html">Партнёры</a></li>
+                    <li><a href="#steps">Инструкция</a></li>
+                    <li><a href="#tarif">Цены</a></li>
+                    <li><a href="#CTA">Контакты</a></li>
+                </ul>
+            </nav>
+            <nav class="footer__nav">
+                <h3>Поддержка</h3>
+                <ul>
+                    <li><a href="./404.html">Центр поддержки</a></li>
+                    <li><a href="./404.html">Политика конфеденциальности</a></li>
+                    <li><a href="./404.html">Документы оферта</a></li>
+                    <li><a href="./404.html">Документы оферта</a></li>
+                    <li><a href="./404.html">Статус</a></li>
+                </ul>
+            </nav>
+        </div>
+        </div>
+        <div class="footer__text">
+            <p>© 2021 Tocha. Все права защищены</p>
+        </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+</body>
+</html>
